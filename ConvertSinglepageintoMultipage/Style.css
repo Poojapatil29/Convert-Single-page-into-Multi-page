@@ -1,0 +1,190 @@
+.bgimg {
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(bgnd.jpg);
+     background-size: 100% 100% ;  
+    /* background-attachment: fixed ; */
+    width: 100% ;
+    height: 800% ;    
+}
+
+.header {
+    padding-top: 250px;
+    box-sizing: border-box;
+}
+
+.header h2{
+    font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header h1{
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header button{
+     margin-bottom: 200px;
+     margin-top: 40px;
+}
+
+/* .................................OUR SERVICES........................ */
+
+.ourservices {
+     padding: 100px 0px 60px;               /* from top = 100, left-right = 0 nd bottom = 60 */
+     height: 700px; 
+    }
+
+
+.ourservices h1{
+       font-size: 50px;
+       font-weight: bold;
+}   
+
+.rowsetting {
+     margin: 80px 0px;                   /* top-bottom = 80, left-right = 0 */
+     
+    }
+    
+.imgsetting {
+    height: 100px;
+    width: 100px;
+    background-color: turquoise;
+    color: white;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 20px;
+    display: inline block;
+    text-align: center;
+   
+}    
+
+.imgsetting:hover{ 
+    background-color: black;
+    color: white;
+    height: 104;
+    width: 104;
+    transition: 0.50s;
+
+} 
+
+.rowsetting h2{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.rowsetting p{
+    color: #6c757d;
+    padding: 10px;
+}
+
+.event{
+    height: 1100px;
+    width: 100%;
+    padding: 100px 0px 50px;
+}
+
+.event h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card{
+    margin-top: 40px;
+}
+
+/* ......................................Our Team.................. */
+
+.ourteam{
+    height: 700px;
+    padding: 100px 0px 60px;
+    width: 100%;
+}
+
+.ourteam h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.teamsetting{
+    margin-top: 70px;
+}
+
+.footer{
+    height: 50px;
+    margin-top: 50px;
+}
+
+.footer h6{
+     line-height: 50px;        /*   use for perfectly present in center */
+}
+
+.contactbtn{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    line-height: 2;
+}
+
+/* /////////////////Responsive/////////////// */
+
+ @media(min-width: 992px){
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    
+}
+
+@media(min-width: 575px) and (max-width: 767px) {
+    
+}
+
+@media(min-width: 460px) and (max-width: 574px) {
+  
+
+}
+
+@media(max-width: 479px){
+    
+.header h2{
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header h1{
+    font-size: 42px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ourservices {
+                                         /* from top = 100, left-right = 0 nd bottom = 60 */
+     height: 1300px; 
+    }
+
+    .event{
+        height: 1900px;
+        
+    }
+
+    .ourteam{
+        height: 1150px;
+        padding: 100px 0px 60px;
+        width: 100%;
+    }
+    
+    .contact h1{
+        margin-bottom: 50px ;
+    }
+    
+    .contact{
+        height: ;
+    }
+
+    .form{
+        height: 500px;
+    }
+
+} 
